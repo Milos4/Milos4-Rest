@@ -33,7 +33,7 @@
                "name":"folder1",
                "emails":["Emails[0]"],
                 "folders":[],
-                "folder":{folder},
+                "folder":{},
                 "rules":[{"id":"1",
                         "condition":"TO",
                          "operation":"MOVE"
