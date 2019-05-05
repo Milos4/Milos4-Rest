@@ -1,5 +1,5 @@
 {
- "Emails":[
+ "Emails":[{
  "Email1": {
       "id": 1,
       "from":{"id":1,
@@ -54,5 +54,5 @@
                 "emails":[]},
       "tags":[],
       "attachments":[]   
-    }]
+ }}]
 }
