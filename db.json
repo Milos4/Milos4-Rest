@@ -49,7 +49,7 @@
       "subject":"Cao",
       "content":"Kako si?",
       "date":"4.5.2019",
-      "folder":{folderid:"1",
+      "folder1":{folderid:"1",
                "name":"folder1",
                "emails":["Emails[0]"],
                 "folders":[],
