@@ -1,6 +1,5 @@
 {
-  "Emails": [
-    {
+ Email{
       "id": 1,
       "from":{"id":1,
               "name":"Marko",
