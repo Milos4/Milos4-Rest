@@ -55,13 +55,13 @@
                 "folders":[],
                 "folder":{},
                 "rules":[{"id":"1",
-                        "condition":"TO"
+                        "condition":"TO",
                          "operation":"MOVE"
                         },{"id":"1",
-                        "condition":"TO"
+                        "condition":"TO",
                          "operation":"DELETE"
                         },{"id":"1",
-                        "condition":"TO"
+                        "condition":"TO",
                          "operation":"COPY"
                         }
                         ]
