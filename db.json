@@ -1,5 +1,5 @@
 {
-  "Email": [
+  "Emails": [
     {
       "id": 1,
       "from":{"id":1,
@@ -13,16 +13,67 @@
               "to":[],
               "cc":[],
               "bcc":[]},              
-      "to":"Milos",
-      "cc":"1",
-      "bcc":"1",
+      "to":[{"id":2,
+              "name":"Milos",
+              "lastname":"Milosevic",
+              "display":1,
+              "email":"milos@hotmail.com",
+              "format":"html",
+              "photo":{"id":2,"path":"path 2"},
+              "from":[],
+              "to":[],
+              "cc":[],
+              "bcc":[]}],
+      "cc":[{"id":2,
+              "name":"Milos",
+              "lastname":"Milosevic",
+              "display":1,
+              "email":"milos@hotmail.com",
+              "format":"html",
+              "photo":{"id":2,"path":"path 2"},
+              "from":[],
+              "to":[],
+              "cc":[],
+              "bcc":[]}],
+      "bcc":[{"id":2,
+              "name":"Milos",
+              "lastname":"Milosevic",
+              "display":1,
+              "email":"milos@hotmail.com",
+              "format":"html",
+              "photo":{"id":2,"path":"path 2"},
+              "from":[],
+              "to":[],
+              "cc":[],
+              "bcc":[]}],
       "subject":"Cao",
       "content":"Kako si?",
       "date":"4.5.2019",
-      "folder":"1",
-      "account":"Milos",
-      "tags":"1",
-      "attachments":"1"   
+      "folder":{id:"1",
+               "name":"folder1",
+               "emails":["Emails[0]"],
+                "folders":[],
+                "folder":{},
+                "rules":[{"id":"1",
+                        "condition":"TO"
+                         "operation":"MOVE"
+                        },{"id":"1",
+                        "condition":"TO"
+                         "operation":"DELETE"
+                        },{"id":"1",
+                        "condition":"TO"
+                         "operation":"COPY"
+                        }
+                        ]
+               },
+      "account":{"id":"1",
+                 "smtp":"smtp1",
+                "username":"Milos",
+                "password":"123",
+                "pop3":"pop3",
+                "emails":[]},
+      "tags":[],
+      "attachments":[]   
     }
   ],
   "Folders": [
