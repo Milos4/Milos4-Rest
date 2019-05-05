@@ -2,15 +2,45 @@
   "Email": [
     {
       "id": 1,
-      "title": "Post 1"
+      "from":"Marko",
+      "to":"Milos",
+      "cc":"1",
+      "bcc":"1",
+      "subject":"Cao",
+      "content":"Kako si?",
+      "date":"4.5.2019",
+      "folder":"1",
+      "account":"Milos",
+      "tags":"1",
+      "attachments":"1"   
     },
     {
       "id": 2,
-      "title": "Post 2"
+      "from":"Nikola",
+      "to":"Marko",
+      "cc":"1",
+      "bcc":"1",
+      "subject":"Cao",
+      "content":"Kako si?",
+      "date":"4.5.2019",
+      "folder":"1",
+      "account":"Marko",
+      "tags":"1",
+      "attachments":"1" 
     },
     {
       "id": 3,
-      "title": "Post 3"
+      "from":"Marko",
+      "to":"Milan",
+      "cc":"1",
+      "bcc":"1",
+      "subject":"Cao",
+      "content":"Kako si?",
+      "date":"4.5.2019",
+      "folder":"1",
+      "account":"Milan",
+      "tags":"1",
+      "attachments":"1" 
     }
   ],
   "Folders": [
