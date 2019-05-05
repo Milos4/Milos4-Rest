@@ -2,7 +2,19 @@
   "Email": [
     {
       "id": 1,
-      "from":"Marko",
+      "from":{"id":1,
+              "name":"Marko",
+              "lastname":"Markovic",
+              "display":1,
+              "email":"marko@hotmail.com",
+              "format":"html",
+              "photo":{"id":1,
+                       "path":"path 1"},
+              "from":[],
+              "to":[],
+              "cc":[],
+              "bcc":[]},              
+             }
       "to":"Milos",
       "cc":"1",
       "bcc":"1",
